@@ -1,0 +1,59 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+source(".../source/analysis.R")
+
+```
+
+
+#Introduction and Summary Information 
+The data sets that we are examining in this report show the incarceration rate for males, females, and individuals of different races. Through examining this data, we gather a lot of information regarding the unfair amounts of policing in certain neighborhoods which are filled with a certain demographic. We see the over policing in Black and Latin X populated neighborhoods. Additionally, we see the trends over the years during different times in history, and the events that occurred; along with how that corresponds with the increase or decrease in the jailing of certain races.
+
+I've decided to analyze variables through the incarceration trends database. Through this data my focus was on Black individuals who were incarcerated between years 1990-2000; how many females were incarcerated; how many LatinX individuals were incarcerated; Native American incarceration rates; and the state which had the most male jail population in 2003.  
+
+#1) How many Black individuals are incarcerated in between 1990-2000?
+The total amount of Black individuals that were incarcerated in the United States during the years of 1990 to 2000 are 78,912,039. 
+```{r}
+total_black_pop
+```
+
+
+#2) How many total female individuals are incarcerated?
+The total amount of females who are put in jail is 26,014,088. 
+```{r}
+total_female_pop
+```
+
+#3) Which year had the highest Native American incarceration rate?
+The year with the highest Native American incarceration rate was 2017. 
+```{r}
+highest_year_native
+```
+
+
+#4)  How many Latinx individuals are incarcerated? 
+The total amount of LatinX individuals which are incarcerated is 26,014,088. 
+```{r}
+total_latinx_pop
+```
+
+#5) What state has the highest Male American incarcerations in 2003? 
+
+#Trends over time chart
+The trend over time chart I decided to analyze and create was for the amount of Black individuals which were incarcerated in Washington. I noticed that the highest amount of Black individuals who were incarcerated in Washington was around 1996 being a little bit of 17,500. 
+```{r}
+chart_over_time
+```
+
+#Variable comparison chart 
+The two variables I decided to compare and analyze were the population of LatinX individuals who were jailed in comparison to the population of White individuals who were jailed. I noticed that there was a significant difference between the amount of LatinX individuals who were jailed and White individuals who were jailed. The maximum number of White individuals who were jailed was just under 7,500 while the max for LatinX individuals was way above 15,000. Both maximums took place at around 1993. 
+```{r}
+latinx_white_chart
+```
+#Map 
+With the Map, I decided to display the population of Males in jail in the year 2003. I wanted to see the state with the highest Males incarceration. Through some programming I figured out that California had the highest amount of males incarcerated in 2003. The map is supposed to show the states with the median to max incarceration and the states with the median to the min incarceration. 
+```{r}
+
+male_map
+
+```
+
