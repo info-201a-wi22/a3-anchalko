@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/872998/9ff07186cf674d0b89d136b38def68ff
+bundleId: https://api.rpubs.com/api/v1/document/872998/9ff07186cf674d0b89d136b38def68ff
+url: http://rpubs.com/anchalko/872998
+when: 1646260578.07001
+lastSyncTime: 1646260578.07003
